@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Artifact",
+      "mcp__Gmail__trash_message",
+      "mcp__Gmail__trash_thread",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)"
+    ]
+  }
+}
