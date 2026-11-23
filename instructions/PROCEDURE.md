@@ -22,7 +22,7 @@ and never use `run_in_background`. Do every step yourself, in order.
 - Month folder name: `<English Month> Meeting`, e.g. `December Meeting`.
 - Rules: photo deadline = 17th; all must be in by 19th; keep max 3 month folders under the root.
 
-## Mode is given by the routine prompt: CREATE, AUDIT, or FINAL-NOV-2026
+## Mode is given by the routine prompt: CREATE or AUDIT
 
 ---
 ## Mode CREATE (runs on the 10th)
@@ -34,8 +34,8 @@ and never use `run_in_background`. Do every step yourself, in order.
 Send no email in this mode.
 
 ---
-## Mode AUDIT (runs on the 19th) and FINAL-NOV-2026 (one-off, 30 Nov 2026)
-Target month = current month in WIB (for FINAL-NOV-2026: `2026-11`, folder `November Meeting`).
+## Mode AUDIT (runs on the 19th)
+Target month = current month in WIB.
 Silence rule: before sending anything, `search_threads` Gmail for the exact subject you are about to send, restricted to this month; if already sent for that branch/month, do not send again.
 
 For each branch:
@@ -55,8 +55,6 @@ Then act:
 - **Both branches DONE** → send "Laporan" email to vwilliam@toyotadutacendana.com.
 - **Each NOT_DONE branch** → send the "NOTICE" email to that branch's adh+bm, CC vwilliam@toyotadutacendana.com. SUSPECT branches are not sent the NOTICE; management handles them.
 - Mixed result (some DONE, some not): send the NOTICE(s) and no "all done" email.
-
-FINAL-NOV-2026 additionally: always send one summary email (Bahasa) to vwilliam@toyotadutacendana.com with the status of both branches, even if some failed, in addition to the emails above.
 
 Never claim tampering from a missing-metadata result alone; that is NOT_DONE, not SUSPECT.
 Never invent file names, counts, or dates; use only what the tools returned.

@@ -4,13 +4,12 @@ PT Duta Cendana Mobilindo (Toyota dealer): Cianjur and Bandung branches. Drive l
 Same procedure and dates as the DCA reminder. Procedure: `instructions/PROCEDURE.md`.
 Photo audit: `scripts/audit_photo.py`.
 
-Routines (claude.ai/code/routines, create in the web form, select this repo, connectors: Google Drive + Gmail):
+Two routines (claude.ai/code/routines, create in the web form, select this repo, connectors: Google Drive + Gmail):
 
 | Routine | MODE | Schedule (WIB) |
 |---|---|---|
 | DCM meeting - create folders & cleanup | CREATE | day 10 every month |
 | DCM meeting - audit & report | AUDIT | day 19 every month |
-| DCM meeting - November 2026 final check (one-off) | FINAL-NOV-2026 | 30 Nov 2026 |
 
 Prompt (replace MODE):
 
