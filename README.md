@@ -1,6 +1,6 @@
 # DCM Operational Meeting Monthly Reminder
 
-PT Duta Cendana Mobilindo (Toyota dealer): Cianjur and Bandung branches.
+PT Duta Cendana Mobilindo (Toyota dealer): Cianjur and Bandung branches. Drive layout: root "DCM Operational Meeting Reminder" > "<Month> Meeting" > Cianjur / Bandung. Manager: vwilliam@toyotadutacendana.com.
 Same procedure and dates as the DCA reminder. Procedure: `instructions/PROCEDURE.md`.
 Photo audit: `scripts/audit_photo.py`.
 
